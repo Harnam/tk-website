@@ -31,7 +31,7 @@
 
 </head>
 
-<body id="page-top" class="index" onload="document.getElementById('copyear').innerHTML = (new Date).getYear() + 1900;">
+<body id="page-top" class="index">
 
     <!-- Navigation -->
     <nav class="navbar navbar-default navbar-fixed-top">
@@ -514,6 +514,8 @@ google.maps.event.addDomListener(window, 'load', initialize);
 
     <!-- Custom Theme JavaScript -->
     <script src="freelancer.js"></script>
+
+	<script>document.getElementById('copyear').innerHTML = (new Date).getYear() + 1900;</script>
 
 </body>
 
